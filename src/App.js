@@ -7,9 +7,10 @@ import Budget from './components/Budget';
 
 // Add code to import the other components here under
 import Remaining from './components/Remaining';
-
 import { AppProvider } from './context/AppContext';
 import ExpenseTotal from './components/ExpenseTotal';
+
+
 const App = () => {
     return (
         <AppProvider>
